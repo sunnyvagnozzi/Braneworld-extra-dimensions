@@ -1,0 +1,11 @@
+GW170817_braneworld.use_nuisance = ['l','omegam','z','rgamma']
+GW170817_braneworld.c = 9.71561*(10.0**(-15.0))
+GW170817_braneworld.deltatmeas = 1.734
+GW170817_braneworld.rgammameas = 42.9
+GW170817_braneworld.zmeas = 0.0080
+GW170817_braneworld.omegammeas = 0.315
+GW170817_braneworld.sigmaastro = 10.0
+GW170817_braneworld.sigmadeltat = 0.054
+GW170817_braneworld.sigmargamma = 3.2
+GW170817_braneworld.sigmaz = 0.0025
+GW170817_braneworld.sigmaomegam = 0.013
