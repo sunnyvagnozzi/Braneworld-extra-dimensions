@@ -10,7 +10,9 @@ where constraints on the size of the AdS<sub>5</sub> radius of curvature within 
 
 This folder contains a patch to the [Montepython](https://github.com/baudren/montepython_public) cosmological MCMC sampler to sample the posterior distribution of the 4-dimensional parameter space in VBV17 and obtain constraints on the parameters.
 
-The *[GW170817_braneworld/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/GW170817_braneworld)* folder implements the likelihood (Eq.(19) in VBV17), hence the name of the experiment you want to use in your run is "GW170817_braneworld" as per Montepython's philosophy. You should copy this folder into your montepython/montepython/likelihoods folder. You should also copy the contents of the *[covmat/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/covmat)* folder into your montepython/covmat folder (assuming you want to supply an input covariance matrix to your runs, which is recommended).
+The *[GW170817_braneworld/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/GW170817_braneworld)* folder implements the likelihood (Eq.(19) in VBV17), hence the name of the experiment you want to use in your run is "GW170817_braneworld" as per Montepython's philosophy. You should copy this folder into your montepython/montepython/likelihoods folder.
+
+You should also copy the contents of the *[covmat/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/covmat)* folder into your montepython/covmat folder (assuming you want to supply an input covariance matrix to your runs, which is recommended).
 
 The input .param file to do the MCMC run is *braneworld.param*. To run the MCMC you then want to do something like (customize your arguments as you prefer, see [Montepython's documentation](http://monte-python.readthedocs.io/en/latest/)): 
 
@@ -20,7 +22,9 @@ The supplied *braneworld.sl* file is a batch file which can be used to run the M
 
     $ sbatch braneworld.sl
 
-The script runs 8 chains in parallel on 1 node, using 4 cores/chain (Cori has 32 cores per node) for 40 minutes (which is more than enough to get a convergence R-1 way better than 0.01. If you want to run on the NERSC supercomputer [Edison](http://www.nersc.gov/users/computational-systems/edison/) I recommend instead running 6 chains (i.e. change "-n 8" to "-n 6" in braneworld.sl). You can also use hyperthreading but you don't gain much in terms of running time.
+The script runs 8 chains in parallel on 1 node, using 4 cores/chain (Cori has 32 cores per node) for 40 minutes (which is more than enough to get a convergence R-1 way better than 0.01.
+
+If you want to run on the NERSC supercomputer [Edison](http://www.nersc.gov/users/computational-systems/edison/) we recommend instead running 6 chains (i.e. change "-n 8" to "-n 6" in braneworld.sl). You can also use hyperthreading but you don't gain much in terms of running time.
 
 ## plots
 
@@ -79,5 +83,3 @@ height="100px"></a>
 height="100px"></a>
    <a href="http://www.ceico.cz/"><img src="https://academicpositions.eu/uploads/46e/083/46e083d07d2516e6b22c300bfe4731ac.jpeg" height="100px"></a>
    <a href="https://www.fzu.cz/"><img src="https://www.fzu.cz/sites/default/files/logo-FZU-velke_1000x600px.jpg" height="100px"></a>
-      <a href="http://www.avcr.cz/en/"><img src="http://www.fundit.fr/sites/default/files/actors/2320-academie-tcheque-sciences-avcr.jpg"
-height="100px"></a>
