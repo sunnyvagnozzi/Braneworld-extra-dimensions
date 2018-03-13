@@ -56,23 +56,17 @@ L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of G
 
 ### Bibtex entry
 
-    @article{Audren:2012wb,
-          author         = "Audren, Benjamin and Lesgourgues, Julien and Benabed,
-                            Karim and Prunet, Simon",
-          title          = "{Conservative Constraints on Early Cosmology: an
-                            illustration of the Monte Python cosmological parameter
-                            inference code}",
-          journal        = "JCAP",
-          volume         = "1302",
-          pages          = "001",
-          doi            = "10.1088/1475-7516/2013/02/001",
-          year           = "2013",
-          eprint         = "1210.7183",
-          archivePrefix  = "arXiv",
-          primaryClass   = "astro-ph.CO",
-          reportNumber   = "CERN-PH-TH-2012-290, LAPTH-048-12",
-          SLACcitation   = "%%CITATION = ARXIV:1210.7183;%%",
+    @@article{Visinelli:2017bny,
+      author         = "Visinelli, Luca and Bolis, Nadia and Vagnozzi, Sunny",
+      title          = "{Probing extra dimensions with gravitational and
+                        electromagnetic signals from compact mergers}",
+      year           = "2017",
+      eprint         = "1711.06628",
+      archivePrefix  = "arXiv",
+      primaryClass   = "gr-qc",
+      SLACcitation   = "%%CITATION = ARXIV:1711.06628;%%"
     }
+
 
 =====================================================================================
 
