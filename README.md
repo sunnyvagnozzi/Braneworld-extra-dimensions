@@ -12,4 +12,8 @@ This folder contains a patch to the [Montepython](https://github.com/baudren/mon
 
 The GW170817_braneworld/ folder implements the likelihood (Eq.(19) in VBV17), hence the name of the experiment you want to use in your run is "GW170817_braneworld" as per Montepython's philosophy. You should copy this folder into your montepython/montepython/likelihoods folder. You should also copy the contents of the covmat/ folder into your montepython/covmat folder (assuming you want to supply an input covariance matrix to your runs, which is recommended).
 
-The input .param file to do the MCMC run is braneworld.param
+The input .param file to do the MCMC run is braneworld.param. To run the MCMC you then want to do something like 
+
+    $ python montepython/MontePython.py run -p braneworld.param -o chains/braneworld -N 100000 --chain-num 1 --update 300 -c covmat/braneworld.covmat [optional arguments]
+
+The supplied braneworld.param file is a batch file
