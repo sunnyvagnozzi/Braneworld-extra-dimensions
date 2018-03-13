@@ -38,6 +38,8 @@ The folder *[plot_data/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimen
 
 The files *braneworld.corr*, *braneworld.covmat*, *braneworld.likestats* and *braneworld.margestats* are standard files produced by getdist when analysing the chains. You will need *braneworld.corr* to produce [Fig.3](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig3.pdf), whereas the numbers in *braneworld.margestats* are those we actually quote in VBV17 (68% and 95% CL upper limits on the AdS<sub>5</sub> radius of curvature)
 
-# If you use these codes in your research, please cite the following paper
+
+
+If you use these codes in your research, please cite the following paper
 
 L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of GW170817](https://inspirehep.net/record/1636969), [arXiv: 1711.06628](https://arxiv.org/abs/1711.06628)
