@@ -10,13 +10,13 @@ where constraints on the size of the AdS<sub>5</sub> radius of curvature within 
 
 This folder contains a patch to the [Montepython](https://github.com/baudren/montepython_public) cosmological MCMC sampler to sample the posterior distribution of the 4-dimensional parameter space in VBV17 and obtain constraints on the parameters.
 
-The GW170817_braneworld/ folder implements the likelihood (Eq.(19) in VBV17), hence the name of the experiment you want to use in your run is "GW170817_braneworld" as per Montepython's philosophy. You should copy this folder into your montepython/montepython/likelihoods folder. You should also copy the contents of the covmat/ folder into your montepython/covmat folder (assuming you want to supply an input covariance matrix to your runs, which is recommended).
+The *[GW170817_braneworld/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/GW170817_braneworld)* folder implements the likelihood (Eq.(19) in VBV17), hence the name of the experiment you want to use in your run is "GW170817_braneworld" as per Montepython's philosophy. You should copy this folder into your montepython/montepython/likelihoods folder. You should also copy the contents of the *[covmat/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/covmat)* folder into your montepython/covmat folder (assuming you want to supply an input covariance matrix to your runs, which is recommended).
 
-The input .param file to do the MCMC run is braneworld.param. To run the MCMC you then want to do something like (customize your arguments as you prefer, see [Montepython's documentation](http://monte-python.readthedocs.io/en/latest/)): 
+The input .param file to do the MCMC run is *braneworld.param*. To run the MCMC you then want to do something like (customize your arguments as you prefer, see [Montepython's documentation](http://monte-python.readthedocs.io/en/latest/)): 
 
     $ python montepython/MontePython.py run -p braneworld.param -o chains/braneworld -N 100000 --chain-num 1 --update 300 -c covmat/braneworld.covmat [optional arguments]
 
-The supplied braneworld.sl file is a batch file which can be used to run the MCMC on the NERSC supercomputer [Cori](http://www.nersc.gov/users/computational-systems/cori/). To submit, type:
+The supplied *braneworld.sl* file is a batch file which can be used to run the MCMC on the NERSC supercomputer [Cori](http://www.nersc.gov/users/computational-systems/cori/). To submit, type:
 
     $ sbatch braneworld.sl
 
