@@ -32,11 +32,7 @@ where file_name=fig1, fig2, or fig3. This will produce fig1.pdf, fig2.pdf, and f
 
 ## results
 
-This folder contains the results of the MCMC analysis used to write VBV17. The MCMC chains we generated are contained in the folder *[chains/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/chains)*.
-
-The folder *[plot_data/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/plot_data)* contains the output of running [getdist](https://getdist.readthedocs.io/en/latest/) on these chains, and is needed to produce [Fig.1](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig1.pdf).
-
-The files *braneworld.corr*, *braneworld.covmat*, *braneworld.likestats* and *braneworld.margestats* are standard files produced by getdist when analysing the chains. You will need *braneworld.corr* to produce [Fig.3](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig3.pdf), whereas the numbers in *braneworld.margestats* are those we actually quote in VBV17 (68% and 95% CL upper limits on the AdS<sub>5</sub> radius of curvature)
+This folder contains the results of the MCMC analysis used to write VBV17. The MCMC chains we generated are contained in the folder *[chains/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/chains)*. The folder *[plot_data/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/plot_data)* contains the output of running [getdist](https://getdist.readthedocs.io/en/latest/) on these chains, and is needed to produce [Fig.1](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig1.pdf). The files *braneworld.corr*, *braneworld.covmat*, *braneworld.likestats* and *braneworld.margestats* are standard files produced by getdist when analysing the chains. You will need *braneworld.corr* to produce [Fig.3](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig3.pdf), whereas the numbers in *braneworld.margestats* are those we actually quote in VBV17 (68% and 95% CL upper limits on the AdS<sub>5</sub> radius of curvature).
 
 # References
 
@@ -67,15 +63,18 @@ L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of G
       SLACcitation   = "%%CITATION = ARXIV:1711.06628;%%"
     }
 
-
 =====================================================================================
 
    <a href="http://www.okc.albanova.se/"><img src="http://www.okc.albanova.se/polopoly_fs/1.327382.1491483655!/image/image.jpg_gen/derivatives/logotype_h130/image.jpg"
 height="100px"></a>
+
    <a href="https://www.su.se/"><img src="http://resources.mynewsdesk.com/image/upload/t_open_graph_image/ayjgabd4qxqbpj4pu4nl.jpg"
 height="100px"></a>
+
       <a href="https://www.nordita.org/"><img src="https://yt3.ggpht.com/a-/AJLlDp3bQ-UG2qVRBjqfsEbsUaDs_fd8yBPkMnPCXg=s900-mo-c-c0xffffffff-rj-k-no"
 height="100px"></a>
+
    <a href="http://www.ceico.cz/"><img src="https://www.fzu.cz/sites/default/files/logo-FZU-velke_1000x600px.jpg" height="100px"></a>
+   
       <a href="http://www.avcr.cz/en/"><img src="http://www.fundit.fr/sites/default/files/actors/2320-academie-tcheque-sciences-avcr.jpg"
 height="100px"></a>
