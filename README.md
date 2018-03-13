@@ -77,6 +77,7 @@ height="100px"></a>
 height="100px"></a>
       <a href="https://www.nordita.org/"><img src="https://yt3.ggpht.com/a-/AJLlDp3bQ-UG2qVRBjqfsEbsUaDs_fd8yBPkMnPCXg=s900-mo-c-c0xffffffff-rj-k-no"
 height="100px"></a>
-   <a href="http://www.ceico.cz/"><img src="https://www.fzu.cz/sites/default/files/logo-FZU-velke_1000x600px.jpg" height="100px"></a>
+   <a href="http://www.ceico.cz/"><img src="https://academicpositions.eu/uploads/46e/083/46e083d07d2516e6b22c300bfe4731ac.jpeg" height="100px"></a>
+   <a href="https://www.fzu.cz/"><img src="https://www.fzu.cz/sites/default/files/logo-FZU-velke_1000x600px.jpg" height="100px"></a>
       <a href="http://www.avcr.cz/en/"><img src="http://www.fundit.fr/sites/default/files/actors/2320-academie-tcheque-sciences-avcr.jpg"
 height="100px"></a>
