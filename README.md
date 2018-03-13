@@ -44,7 +44,17 @@ If you use these codes in your research, please cite the following paper
 
 L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of GW170817](https://inspirehep.net/record/1636969), [arXiv: 1711.06628](https://arxiv.org/abs/1711.06628)
 
-.. code::
+### Latex (EU) entry
+
+    %\cite{Visinelli:2017bny}
+    \bibitem{Visinelli:2017bny}
+      L.~Visinelli, N.~Bolis and S.~Vagnozzi,
+      %``Probing extra dimensions with gravitational and electromagnetic signals from compact mergers,''
+      arXiv:1711.06628 [gr-qc].
+      %%CITATION = ARXIV:1711.06628;%%
+      %3 citations counted in INSPIRE as of 13 Mar 2018
+
+### Bibtex entry
 
     @article{Audren:2012wb,
           author         = "Audren, Benjamin and Lesgourgues, Julien and Benabed,
