@@ -40,7 +40,7 @@ The files *braneworld.corr*, *braneworld.covmat*, *braneworld.likestats* and *br
 
 # References
 
-If you use these codes in your research, please cite the following paper
+If you use these codes in your research, please cite the following paper (if you use *Montepython*, you should also cite the original work):
 
 L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of GW170817](https://inspirehep.net/record/1636969), [arXiv: 1711.06628](https://arxiv.org/abs/1711.06628)
 
