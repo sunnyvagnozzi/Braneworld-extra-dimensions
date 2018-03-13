@@ -1,0 +1,20 @@
+
+#------Experiments to test (separated with commas)-----
+
+data.experiments=['GW170817_braneworld']
+
+data.parameters['l']     = [0.1, 0.0 ,5.0, 0.001, 1, 'nuisance']
+data.parameters['omegam']     = [0.315, 0.2 ,0.4, 0.003, 1, 'nuisance']
+data.parameters['z']     = [0.008, 0.0 ,0.2, 0.001, 1, 'nuisance']
+data.parameters['rgamma']     = [40.0, 0.0 ,200.0, 1.0, 1, 'nuisance']
+
+data.cosmo_arguments['k_pivot'] = 0.05
+
+data.cosmo_arguments['non linear'] = 'halofit'
+
+data.cosmo_arguments['output'] = 'mPk'
+
+#------ Mcmc parameters ----
+
+data.N=10
+data.write_step=5
