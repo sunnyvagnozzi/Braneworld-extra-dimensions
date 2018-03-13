@@ -77,5 +77,9 @@ L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of G
 =====================================================================================
 
    <a href="http://www.okc.albanova.se/"><img src="http://www.okc.albanova.se/polopoly_fs/1.327382.1491483655!/image/image.jpg_gen/derivatives/logotype_h130/image.jpg"
-height="200px"></a>
-   <a href="http://www.ceico.cz/"><img src="https://www.fzu.cz/sites/default/files/logo-FZU-velke_1000x600px.jpg" height="200px"></a>
+height="100px"></a>
+   <a href="https://www.su.se/"><img src="http://resources.mynewsdesk.com/image/upload/t_open_graph_image/ayjgabd4qxqbpj4pu4nl.jpg"
+height="100px"></a>
+   <a href="http://www.ceico.cz/"><img src="https://www.fzu.cz/sites/default/files/logo-FZU-velke_1000x600px.jpg" height="100px"></a>
+      <a href="http://www.avcr.cz/en/"><img src="http://www.fundit.fr/sites/default/files/actors/2320-academie-tcheque-sciences-avcr.jpg"
+height="100px"></a>
