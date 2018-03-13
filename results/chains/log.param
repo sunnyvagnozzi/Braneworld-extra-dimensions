@@ -1,0 +1,48 @@
+#-----CLASS v2.6.3 (branch: master, hash: de7d9d7e54874dd7c841ee6896cf39ded32e2bae)-----
+
+
+#------Experiments to test (separated with commas)-----
+
+data.experiments=['GW170817_braneworld']
+
+data.parameters['l']     = [0.1, 0.0 ,5.0, 0.001, 1, 'nuisance']
+data.parameters['omegam']     = [0.315, 0.2 ,0.4, 0.003, 1, 'nuisance']
+data.parameters['z']     = [0.008, 0.0 ,0.2, 0.001, 1, 'nuisance']
+data.parameters['rgamma']     = [40.0, 0.0 ,200.0, 1.0, 1, 'nuisance']
+
+data.cosmo_arguments['k_pivot'] = 0.05
+
+data.cosmo_arguments['non linear'] = 'halofit'
+
+data.cosmo_arguments['output'] = 'mPk'
+
+#------ Mcmc parameters ----
+
+data.N=10
+data.write_step=5
+
+
+#-----Likelihood-GW170817_braneworld-----
+GW170817_braneworld.use_nuisance = ['l', 'omegam', 'z', 'rgamma']
+GW170817_braneworld.sigmaastro = 10.0
+GW170817_braneworld.c = 9.71561e-15
+GW170817_braneworld.sigmargamma = 3.2
+GW170817_braneworld.omegammeas = 0.315
+GW170817_braneworld.rgammameas = 42.9
+GW170817_braneworld.sigmadeltat = 0.054
+GW170817_braneworld.sigmaz = 0.0025
+GW170817_braneworld.zmeas = 0.008
+GW170817_braneworld.sigmaomegam = 0.013
+GW170817_braneworld.deltatmeas = 1.734
+
+
+#-----------Cosmological-arguments---------
+data.cosmo_arguments.update({'k_pivot': 0.05, 'non linear': 'halofit', 'output': 'mPk'})
+
+
+#--------Default-Configuration------
+data.path['cosmo']	= '/global/homes/v/vagnox92/class_public'
+data.path['root']	= '/global/cscratch1/sd/vagnox92/montepython_braneworld_extra_dimensions'
+data.path['data']	= '/global/cscratch1/sd/vagnox92/montepython_braneworld_extra_dimensions/data'
+data.path['clik']	= '/global/homes/v/vagnox92/plc-2.0'
+data.path['MontePython']	= '/global/cscratch1/sd/vagnox92/montepython_braneworld_extra_dimensions/montepython'

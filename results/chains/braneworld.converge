@@ -1,0 +1,46 @@
+ 
+ Variance test convergence stats using remaining chains
+ param var(chain mean)/mean(chain var)
+ 
+  1      0.00091  \ell\, ({\rm Mpc})
+  2      0.00036  \Omega_m
+  3      0.00026  z
+  4      0.00012  r_{\gamma} ({\rm Mpc})
+ 
+var(mean)/mean(var) for eigenvalues of covariance of means of orthonormalized parameters
+  1      0.00002
+  2      0.00016
+  3      0.00038
+  4      0.00096
+ 
+ Split tests: rms_n([delta(upper/lower quantile)]/sd) n={2,3,4}:
+ i.e. mean sample splitting change in the quantiles in units of the st. dev.
+ 
+  1   0.0560   0.0945   0.0663  \ell\, ({\rm Mpc}) upper
+  1   0.0005   0.0013   0.0008  \ell\, ({\rm Mpc}) lower
+  2   0.0194   0.0194   0.0224  \Omega_m upper
+  2   0.0152   0.0177   0.0256  \Omega_m lower
+  3   0.0275   0.0225   0.0290  z upper
+  3   0.0027   0.0111   0.0113  z lower
+  4   0.0076   0.0153   0.0201  r_{\gamma} ({\rm Mpc}) upper
+  4   0.0087   0.0171   0.0151  r_{\gamma} ({\rm Mpc}) lower
+ 
+ Raftery&Lewis statistics
+ 
+ chain  markov_thin  indep_thin    nburn
+   1          61          72         305
+   2          70          90         490
+   3          60          90         420
+   4          61          80         427
+   5          69          75         345
+   6          68          78         408
+   7          62          77         248
+   8          74          78         296
+ 
+ Parameter auto-correlations as function of step separation
+ 
+         15      30      45      60      75      90     105     120     135     150     165     180     195     210     225
+  1   0.707   0.547   0.432   0.341   0.274   0.219   0.177   0.144   0.121   0.098   0.079   0.062   0.047   0.037   0.031  \ell\, ({\rm Mpc})
+  2   0.228   0.056   0.014   0.002  -0.003  -0.009  -0.003   0.003  -0.003  -0.001   0.004   0.002  -0.001  -0.007  -0.004  \Omega_m
+  3   0.396   0.215   0.140   0.098   0.081   0.060   0.045   0.044   0.038   0.029   0.026   0.020   0.016   0.013   0.015  z
+  4   0.220   0.054   0.013   0.008   0.007   0.002   0.001   0.008   0.003   0.003  -0.009  -0.003  -0.008   0.002   0.004  r_{\gamma} ({\rm Mpc})
