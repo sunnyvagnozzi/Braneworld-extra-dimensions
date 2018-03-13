@@ -32,7 +32,9 @@ where file_name=fig1, fig2, or fig3. This will produce fig1.pdf, fig2.pdf, and f
 
 ## results
 
-This folder contains the results of the MCMC analysis used to write VBV17. The MCMC chains we generated are contained in the folder *[chains/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/chains)*. The folder *[plot_data/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/plot_data)* contains the output of running [getdist](https://getdist.readthedocs.io/en/latest/) on these chains, and is needed to produce [Fig.1](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig1.pdf).
+This folder contains the results of the MCMC analysis used to write VBV17. The MCMC chains we generated are contained in the folder *[chains/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/chains)*.
+
+The folder *[plot_data/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/results/plot_data)* contains the output of running [getdist](https://getdist.readthedocs.io/en/latest/) on these chains, and is needed to produce [Fig.1](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig1.pdf).
 
 The files *braneworld.corr*, *braneworld.covmat*, *braneworld.likestats* and *braneworld.margestats* are standard files produced by getdist when analysing the chains. You will need *braneworld.corr* to produce [Fig.3](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/blob/master/plots/fig3.pdf), whereas the numbers in *braneworld.margestats* are those we actually quote in VBV17 (68% and 95% CL upper limits on the AdS<sub>5</sub> radius of curvature)
 
