@@ -10,7 +10,9 @@ where constraints on the size of the AdS<sub>5</sub> radius of curvature within 
 
 This folder contains a patch to the [Montepython](https://github.com/baudren/montepython_public) cosmological MCMC sampler to sample the posterior distribution of the 4-dimensional parameter space in VBV17 and obtain constraints on the parameters. You should therefore first of all download and install [Montepython](https://github.com/baudren/montepython_public) following the documentation provided.
 
-The *[GW170817_braneworld/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/GW170817_braneworld)* folder implements the likelihood (Eq.(19) in VBV17), hence the name of the experiment you want to use in your run is "GW170817_braneworld" as per Montepython's philosophy. You should copy this folder into your montepython/montepython/likelihoods folder. You should also copy the contents of the *[covmat/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/covmat)* folder into your montepython/covmat folder (assuming you want to supply an input covariance matrix to your runs, which is recommended).
+The *[GW170817_braneworld/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/GW170817_braneworld)* folder implements the likelihood (Eq.(19) in VBV17), hence the name of the experiment you want to use in your run is "GW170817_braneworld" as per Montepython's philosophy. You should copy this folder into your montepython/montepython/likelihoods folder.
+
+You should also copy the contents of the *[covmat/](https://github.com/sunnyvagnozzi/Braneworld-extra-dimensions/tree/master/montepython/covmat)* folder into your montepython/covmat folder (assuming you want to supply an input covariance matrix to your runs, which is recommended).
 
 The input .param file to do the MCMC run is *braneworld.param*. To run the MCMC you then want to do something like (customize your arguments as you prefer, see [Montepython's documentation](http://monte-python.readthedocs.io/en/latest/)): 
 
@@ -71,6 +73,8 @@ L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of G
 If you experience any problems with the codes, or to report bugs, please email [sunny.vagnozzi@fysik.su.se](mailto:sunny.vagnozzi@fysik.su.se) (unless you're a robot, of course)
 
 ************************************************************************************************
+
+This research was supported by:
 
    <a href="http://www.okc.albanova.se/"><img src="http://www.okc.albanova.se/polopoly_fs/1.327382.1491483655!/image/image.jpg_gen/derivatives/logotype_h130/image.jpg"
 height="100px"></a>
