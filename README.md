@@ -52,7 +52,6 @@ L. Visinelli, N. Bolis, S. Vagnozzi, [Brane-world extra dimensions in light of G
       %``Probing extra dimensions with gravitational and electromagnetic signals from compact mergers,''
       arXiv:1711.06628 [gr-qc].
       %%CITATION = ARXIV:1711.06628;%%
-      %3 citations counted in INSPIRE as of 13 Mar 2018
 
 ### Bibtex entry
 
